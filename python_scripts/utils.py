@@ -17,7 +17,7 @@ logging.getLogger("requests").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 #------------------ MENU ------------------#
-def switch(_value):
+def switch(_value: int):
     cases = {
         '1': lambda: logging.info('Matching State ==> {}\n'.format(match_between_key_n_certificate())),
         '2': lambda: list_Cert(),
@@ -149,7 +149,7 @@ def list_Cert():
 
         
 # - Option 3 - #
-def insert_Cert_Create(csv_file,new_file,key_file,cert_file):
+def insert_Cert_Create(csv_file: str,new_file: bool,key_file: str,cert_file: str):
 
     myDateTime = datetime.datetime.today()     
     DATE = ("{0}-{1}-{2}_{3}-{4}-{5}".format(myDateTime.year, myDateTime.month, myDateTime.day,myDateTime.hour, myDateTime.minute,myDateTime.second))
