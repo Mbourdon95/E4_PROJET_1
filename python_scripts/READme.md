@@ -2,14 +2,11 @@
 
 ## Access
 
-OS X & Linux & Windows:
-
-## Setup For Development
+### Setup For Development
 
 In order to complete the project, it would have been necessary to install Python 3 with Pip
-> Modules are installed automatically
 
-```python
+```
 pip install -r requirements.txt 
 ```
 
