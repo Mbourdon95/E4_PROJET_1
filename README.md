@@ -5,15 +5,17 @@
 > L'objectif de l'application est d'accéder à un menu intéractif, permettant aux utilisateurs de simplifier leurs lectures, leurs insertions ainsi que leurs vérification de certificat simplement rapidement et efficacement.
 
 > Le traitement consiste à récupérer, lire ou insérer des k/v (key/value)
+
 ### Installation 
 
 **Installer** : *Python 3.9.X*
 **Initialiser**: *CMD*
-> Se placer sur le répertoire Gestion_Certif => *cd PATH*
-**Récupérer** le chemin d'accès de python.exe (à priori dans *user/Appdata/Local/Python/Python3.9.X/python.exe*)
-**Lancer**: *user/Appdata/Local/Python/Python3.9.X/python.exe* **-m pip3 install -r requirements.txt**
 
-> Si un nouveau module est ajouté, il faut installer localement le module **pipreqs** puis lancer la commande **pipreqs PathToScript** pour la régénération du requirements.txt
+Se placer sur le répertoire Gestion_Certif => *cd PATH*
+
+> **Récupérer** le chemin d'accès de python.exe (à priori dans *user/Appdata/Local/Python/Python3.9.X/python.exe*)
+
+> **Lancer**: *user/Appdata/Local/Python/Python3.9.X/python.exe* **-m pip3 install -r requirements.txt**
 
 
 ### Lancement 
@@ -23,10 +25,13 @@
 > Le lancement s'effectue en tapant la commande: *user/Appdata/Local/Python/Python3.9.X/python.exe* **Gestion_Certif-main/python_scripts/cert.py**
 > **OU** *clic droit* sur ***cert.py*** puis selectionner :  **Run Python File in Terminal**
 
+![Capture](https://user-images.githubusercontent.com/71081511/114020824-45d0c100-9870-11eb-8cbe-de99e57ee1f0.PNG)
+
 ### Ajout de Module
 
 > Dans une console *CMD* => *user/Appdata/Local/Python/Python3.9.X/python.exe* **-m pip install pipreqs**
 >> puis *user/Appdata/Local/Python/Python3.9.X/Script/pipreqs.exe* **--force .**
 
 ### Schéma Général
+![VP7FQXj138VlynGYbyQGREcVKWZ1X9eS2ZcKk0tqE9bL4hMxceqq2e7IT-brdsDVh1hRjPtIz3Ipgvy-eM_Ej4GfrdTmcq9C9GjyMPvVXY6cx_4MuM1nVlcv-VJr07w4Me3ZOpYy845eKQ7DpDE8EjlLFhAYe3nNlff6eHlom2ABe0wPsyW90RauD7Lu0rWWeHIFfLXcuTz8Q9ev72x4F](https://user-images.githubusercontent.com/71081511/114020948-6c8ef780-9870-11eb-8f6f-8c38b0478698.png)
 
