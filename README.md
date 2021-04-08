@@ -7,7 +7,9 @@ READme.md Code =>*https://github.com/Mbourdon95/E4_PROJET_1/tree/main/python_scr
 ### Description
 > L'objectif de l'application est d'accéder à un menu intéractif, permettant aux utilisateurs de simplifier leurs lectures, leurs insertions ainsi que leurs vérification de certificat simplement rapidement et efficacement.
 
-> Le traitement consiste à récupérer, lire ou insérer des k/v (key/value)
+> Pour rappel : Un certificat SSL est un fichier de données qui lie une clé cryptographique aux informations d'une organisation. Installé sur un serveur, le certificat active le cadenas et le protocole « https », afin d'assurer une connexion sécurisée entre le serveur web et le navigateur. Le SSL est généralement utilisé pour sécuriser les transactions bancaires, le transfert de données et les informations de connexions. Il est récemment devenu la norme pour sécuriser la navigation sur les sites de réseaux sociaux.
+
+> Le traitement consiste à récupérer, lire ou insérer des certificats et les clef
 
 ### Installation 
 
