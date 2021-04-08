@@ -1,6 +1,9 @@
 # E4_PROJET_1
 ## Gestion Des Certificats par les fichiers CSV
 
+READme.md Code =>*https://github.com/Mbourdon95/E4_PROJET_1/tree/main/python_scripts*
+
+
 ### Description
 > L'objectif de l'application est d'accéder à un menu intéractif, permettant aux utilisateurs de simplifier leurs lectures, leurs insertions ainsi que leurs vérification de certificat simplement rapidement et efficacement.
 
